@@ -1,0 +1,18 @@
+Objective: explain stored XSS vulnerability on SuperRare and why it matters
+Audience: non technical 
+
+Technical details = non-technical explanation
+
+A Web3 marketplace = a vending machine
+Core smart contracts running the marketplace = the vending machine always works as long as it has power
+Website = the buttons you push to get your soda
+Buttons may be broken but machine can still work
+Stored XSS in the image vulnerability = vending machine eats your money 
+No response from SuperRare = you can't get ahold of maintenance to get your money back
+Public disclosure = putting a label over the money slot saying "don't buy anything, broken"
+
+
+Ultra worst case scenario
+Core smart contract broken = manufacturing defect with all vending machines
+Hardfork upgrade = forced recall and replacement of broken machines
+Old code = broken machines (you can still use them but why would you want to?)
